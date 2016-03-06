@@ -36,3 +36,23 @@ footer{
         top: 0px;
     }
 }
+
+.navbar-inverse .navbar-nav > li > a{
+    color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #333;
+}
+
+.panel-heading{
+    background-color: #206B9F !important;
+    color: white !important;
+    text-align: center;
+}
+
+
+.specialcolor{
+    background-color: #206B9F;
+    border-color: transparent;
+}
