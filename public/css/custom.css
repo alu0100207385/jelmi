@@ -1,0 +1,38 @@
+.center{
+	text-align: center;
+}
+
+.right{
+	text-align: right;
+}
+
+.left{
+	text-align: left;
+}
+
+.justify{
+	text-align: justify;
+}
+
+footer{
+	background-color: #ADADAD;
+}
+
+.navbar-wrapper {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    height: 51px;
+}
+
+.navbar-wrapper > .container {
+    padding: 0;
+}
+
+@media all and (max-width: 768px ){
+    .navbar-wrapper {
+        position: relative;
+        top: 0px;
+    }
+}
